@@ -1,0 +1,11 @@
+{
+  "name": "civicpulse-ai-v2",
+  "version": "1.0.0",
+  "description": "CivicPulse AI — From Complaints to Action (AI for Civic Impact)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "seed": "node backend/seed.js"
+  }
+}
